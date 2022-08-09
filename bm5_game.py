@@ -7,6 +7,7 @@ class Voin:
         self.health = hp
         self.attack_power = attack_power
 
+
     def attack(self):
         if(self.name == names[0]):
             enemy = elf
